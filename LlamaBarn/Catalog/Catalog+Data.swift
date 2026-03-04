@@ -731,6 +731,148 @@ extension Catalog {
             )
           ]
         ),
+        ModelSize(
+          name: "122B-A10B",
+          parameterCount: 122_000_000_000,
+          releaseDate: date(2026, 3, 3),
+          ctxWindow: 262_144,
+          ctxBytesPer1kTokens: 25_165_824,
+          mmproj: URL(
+            string:
+              "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf"
+          )!,
+          build: ModelBuild(
+            quantization: "Q8_0",
+            fileSize: 129_871_935_040,
+            downloadUrl: URL(
+              string:
+                "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Q8_0/Qwen3.5-122B-A10B-Q8_0-00001-of-00004.gguf"
+            )!,
+            additionalParts: [
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Q8_0/Qwen3.5-122B-A10B-Q8_0-00002-of-00004.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Q8_0/Qwen3.5-122B-A10B-Q8_0-00003-of-00004.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/Q8_0/Qwen3.5-122B-A10B-Q8_0-00004-of-00004.gguf"
+              )!,
+            ]
+          ),
+          quantizedBuilds: [
+            ModelBuild(
+              quantization: "UD-Q4_K_XL",
+              fileSize: 68_357_580_224,
+              downloadUrl: URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf"
+              )!,
+              additionalParts: [
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00002-of-00003.gguf"
+                )!,
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00003-of-00003.gguf"
+                )!,
+              ]
+            )
+          ]
+        ),
+        ModelSize(
+          name: "397B-A17B",
+          parameterCount: 397_000_000_000,
+          releaseDate: date(2026, 3, 3),
+          ctxWindow: 262_144,
+          ctxBytesPer1kTokens: 31_457_280,
+          mmproj: URL(
+            string:
+              "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/mmproj-F16.gguf"
+          )!,
+          build: ModelBuild(
+            quantization: "Q8_0",
+            fileSize: 421_507_365_376,
+            downloadUrl: URL(
+              string:
+                "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00001-of-00010.gguf"
+            )!,
+            additionalParts: [
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00002-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00003-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00004-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00005-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00006-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00007-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00008-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00009-of-00010.gguf"
+              )!,
+              URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/Q8_0/Qwen3.5-397B-A17B-Q8_0-00010-of-00010.gguf"
+              )!,
+            ]
+          ),
+          quantizedBuilds: [
+            ModelBuild(
+              quantization: "UD-Q4_K_XL",
+              fileSize: 219_216_328_992,
+              downloadUrl: URL(
+                string:
+                  "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf"
+              )!,
+              additionalParts: [
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00002-of-00006.gguf"
+                )!,
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00003-of-00006.gguf"
+                )!,
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00004-of-00006.gguf"
+                )!,
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00005-of-00006.gguf"
+                )!,
+                URL(
+                  string:
+                    "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00006-of-00006.gguf"
+                )!,
+              ]
+            )
+          ]
+        ),
       ]
     ),
     // MARK: Nemotron Nano 3
