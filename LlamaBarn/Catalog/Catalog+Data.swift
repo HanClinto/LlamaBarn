@@ -567,6 +567,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-0.8B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 811_843_840,
@@ -596,6 +597,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-2B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 2_012_012_800,
@@ -625,6 +627,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-4B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 4_482_403_488,
@@ -654,6 +657,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-9B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 9_527_502_048,
@@ -683,6 +687,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-27B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 28_595_763_104,
@@ -712,6 +717,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-35B-A3B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 36_903_139_968,
@@ -741,6 +747,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-122B-A10B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 129_871_935_040,
@@ -794,6 +801,7 @@ extension Catalog {
             string:
               "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/mmproj-F16.gguf"
           )!,
+          mmprojLocalFilename: "Qwen3.5-397B-A17B-mmproj-F16.gguf",
           build: ModelBuild(
             quantization: "Q8_0",
             fileSize: 421_507_365_376,
