@@ -262,6 +262,13 @@ class ModelManager: NSObject, URLSessionDownloadDelegate {
               if !fileSet.contains(part.lastPathComponent) { return false }
             }
           }
+
+          // Vision models require their mmproj file to be present
+          if let mmprojUrl = model.mmprojUrl {
+            let mmprojFile = model.localFilename(for: mmprojUrl)
+            if !fileSet.contains(mmprojFile) { return false }
+          }
+
           return true
         }
       } else {
