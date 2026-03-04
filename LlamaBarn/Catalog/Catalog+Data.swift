@@ -548,9 +548,9 @@ extension Catalog {
         )
       ]
     ),
-    // MARK: Qwen3.5
+    // MARK: Qwen3.5 Small
     ModelFamily(
-      name: "Qwen3.5",
+      name: "Qwen3.5 Small",
       series: "qwen",
       description:
         "Alibaba's hybrid reasoning vision-language models with thinking/non-thinking modes. Uses a novel GatedDeltaNet+Attention architecture for efficient 256K context across 201 languages.",
@@ -677,6 +677,17 @@ extension Catalog {
             )
           ]
         ),
+      ]
+    ),
+    // MARK: Qwen3.5 Medium
+    ModelFamily(
+      name: "Qwen3.5 Medium",
+      series: "qwen",
+      description:
+        "Alibaba's hybrid reasoning vision-language models with thinking/non-thinking modes. Uses a novel GatedDeltaNet+Attention architecture for efficient 256K context across 201 languages.",
+      serverArgs: ["--temp", "0.6", "--top-k", "20", "--top-p", "0.95", "--min-p", "0"],
+      overheadMultiplier: 1.1,
+      sizes: [
         ModelSize(
           name: "27B",
           parameterCount: 26_883_041_792,
